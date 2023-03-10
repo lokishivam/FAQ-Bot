@@ -1,0 +1,14 @@
+.content {
+  background-color: rgb(255, 255, 255);
+  height: calc(80vh - 80px);
+  overflow-y: auto;
+  border-bottom: 1px solid black;
+}
+
+.innerContent {
+  padding: 30px 20px;
+}
+
+#typeImg {
+  margin-left: 10px;
+}

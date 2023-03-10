@@ -1,0 +1,58 @@
+.clientAsks {
+  border: 2px solid rgba(26, 183, 218, 0.418);
+  margin: 10px 0px 10px auto;
+  border-radius: 20px 20px 0px 20px;
+}
+
+.weAnswer {
+  border: 2px solid rgb(227, 227, 227);
+  margin: 10px auto 10px 0px;
+  border-radius: 20px 20px 20px 0px;
+}
+
+.boxMessage {
+  width: 55%;
+  padding: 5px;
+  text-align: center;
+  white-space: break-spaces;
+  word-break: break-word;
+  color: rgb(0, 0, 0);
+  font-family: arial;
+  position: relative;
+}
+
+.tag-body {
+  width: fit-content;
+  height: auto;
+  border: 1px solid rgb(255, 255, 255);
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  padding: 6px 8px;
+  border-radius: 5px;
+
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+}
+
+.tag-body:hover {
+  background-color: rgba(26, 183, 218, 0.418);
+}
+
+.card {
+  border: 1px solid rgb(242, 242, 242);
+  margin-right: 20px;
+  background: rgb(227, 227, 227);
+  border-radius: 20px 20px 20px 0px;
+}
+
+.renderSubtags {
+  margin: 10px 12px;
+}
+
+.message ul {
+  list-style: none;
+  padding-inline-start: 20px;
+  padding-inline-end: 20px;
+}

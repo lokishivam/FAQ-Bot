@@ -1,0 +1,46 @@
+.parent {
+  text-align: center;
+  display: flex;
+  justify-content: end;
+  height: 25px;
+}
+
+.block {
+  background-color: rgb(255, 255, 255);
+  height: 80px;
+  border-bottom: 1px solid black;
+}
+
+.closebtn {
+  background-color: transparent;
+  border: 0px;
+  cursor: pointer;
+  padding: 0px;
+  width: 30px;
+}
+
+.closebtn:hover {
+  background-color: rgba(26, 183, 218, 0.418);
+}
+
+.button-9:disabled {
+  cursor: default;
+}
+
+.title {
+  text-align: center;
+  height: 55px;
+  display: flex;
+}
+
+.title h3 {
+  margin: 0px !important;
+  padding-top: 10px;
+  color: #6bb9ce;
+}
+
+.title div {
+  text-align: left;
+  width: 40%;
+  padding-left: 10px;
+}

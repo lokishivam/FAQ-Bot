@@ -1,0 +1,33 @@
+.btnPos {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+}
+
+@media only screen and (hover: none) and (pointer: coarse) {
+  .box {
+    height: 80vh;
+    width: 90%;
+    border: 1px solid black;
+
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+  }
+}
+
+@media only screen and (min-width: 500px) {
+  .box {
+    height: 80vh;
+    width: 400px;
+    border: 1px solid black;
+
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+  }
+}
+
+.noneDisplay {
+  display: none;
+}
